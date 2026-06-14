@@ -1,0 +1,56 @@
+/* Заголовок */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #4c1d95;
+    margin-bottom: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+/* Контейнер загрузки */
+.stFileUploader {
+    border: 3px dashed #7c3aed;
+    border-radius: 20px;
+    padding: 40px;
+    background: #f5f3ff;
+    width: 420px;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Убираем лишнюю кнопку Upload */
+.stFileUploader button {
+    display: none;
+}
+
+/* Подпись про размер файла */
+.stFileUploader p {
+    font-size: 20px;
+    color: #4b5563;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Изображение внутри окна */
+.upload-box img {
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Блок с результатами */
+.result-text {
+    font-size: 28px;       /* крупный шрифт */
+    font-weight: 700;      /* жирный */
+    color: #1f2937;        /* тёмно‑серый */
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+}
