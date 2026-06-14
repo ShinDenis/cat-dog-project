@@ -3,3 +3,4 @@ __pycache__/
 .env
 dataset/
 desktop.ini
+.idea
