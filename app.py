@@ -15,7 +15,7 @@ with open("style.css", encoding="utf-8") as f:
 @st.cache_resource
 def load_model():
     model = CNN()
-    state_dict = torch.load("cat_dog_cnn_final_model.pth", map_location="cpu")
+    state_dict = torch.load("cat_dog_cnn_final_model.pth", map_location="cpu", weights_only=False)
     model.load_state_dict(state_dict)
     model.eval()
     return model
