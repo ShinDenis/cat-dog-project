@@ -4,7 +4,7 @@
 
 ## 🔗 Демо
 
-[Открыть приложение]([https://your-app.onrender.com](https://cat-dog-project.onrender.com))
+[Открыть приложение](https://cat-dog-project.onrender.com)
 
 ## 📊 Результаты модели
 
