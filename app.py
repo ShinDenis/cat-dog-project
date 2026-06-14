@@ -3,9 +3,8 @@ from PIL import Image
 import torch
 from torchvision import transforms
 from cnn import CNN
-warnings.filterwarnings("ignore", message="Examining the path of torch.classes")
-
 import warnings
+warnings.filterwarnings("ignore", message="Examining the path of torch.classes")
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 # Загружаем CSS
